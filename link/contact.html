@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1{
+  background-color: rgb(236, 43, 43);
+
+  text-align: center;
+  margin: 0px;
+  padding:8px;
+  font-size: 22px;
+        }
+        .div1 h1{
+            color: white;
+            font-weight: bolder;
+        }
+        .div2{
+            background-color: white;
+            margin: 50px 50px;
+            padding: 50px;
+            box-sizing: border-box;
+            
+        }
+    
+        .flex{
+            display: flex;
+            gap: 10px;
+            align-content: center;
+            justify-content: space-around;
+            white-space: 10px;
+        }
+        .contact{
+            margin-top: 50px;
+          display: flex;
+          flex-direction: column;
+          gap: 12px;
+        }
+        .contact input{
+            border-style: none;
+            cursor: pointer;
+            padding: 5px 10px;
+            outline:none;
+        }
+        
+        .line{
+            width: 400px;
+            height: 1px;
+            background-color: rgb(155, 148, 148);
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="div1">
+           <p>Don't Be A Stranger</p>
+           <h1>Contact Me.</h1>
+    </div>
+    <div class="div2">
+        <h1>Let's Work Together.<br>Drop Me A Line.</h1>
+
+        <div class="flex">
+            <div class="contact">
+                <span> Email Address</span><span><input type=" email" placeholder="abc@gmail.com"></span>
+                <span class="line"></span>
+            </div>
+            <div class="contact">
+                <span> Phone Number</span><span><input type="tel" placeholder="1234567890"></span>
+                <span class="line"></span>
+            </div>
+            <div class="contact">
+                <span> My Address</span><span><input type="address" placeholder="delhi, India"></span>
+                <span class="line"></span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
